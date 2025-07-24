@@ -1,0 +1,14 @@
+option('tests',
+       type : 'feature',
+       value : 'enabled',
+       description : 'Build unit tests')
+
+option('docs',
+       type : 'feature',
+       value : 'enabled',
+       description : 'Build documentation')
+
+option('python',
+       type : 'feature',
+       value : 'enabled',
+       description : 'Build Python bindings')
