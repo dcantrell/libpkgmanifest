@@ -23,6 +23,7 @@ include(GNUInstallDirs)
 
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(YAMLCPP REQUIRED yaml-cpp)
+pkg_check_modules(RPM REQUIRED rpm)
 
 add_compile_options(-Wall -Wextra -Werror)
 
